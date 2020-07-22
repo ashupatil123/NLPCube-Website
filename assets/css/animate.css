@@ -1,0 +1,190 @@
+.section-timeline{
+    margin: 100px 0 0;
+}
+
+.container-timeline{
+    padding: 5% 40%;
+    color:#fff;
+    height: 100%;
+    font-family: "Open Sans", sans-serif;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bea2e7+0,86b7e7+100 */
+    background: #bea2e7;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #bea2e7 0%, #86b7e7 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #bea2e7 0%, #86b7e7 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #bea2e7 0%, #86b7e7 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bea2e7', endColorstr='#86b7e7',GradientType=0 );
+    /* IE6-9 */
+}
+
+.container-timeline ul:before {
+    content: "";
+    width: 1px;
+    height: 90%;
+    position: absolute;
+    border-left: 2px dashed #fff;
+  }
+  .container-timeline ul li {
+    width: 350px;
+    position: relative;
+    margin-left: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 14px;
+    border-radius: 6px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.08);
+    list-style-type: none;
+  }
+  .container-timeline ul li:not(:first-child) {
+    margin-top: 60px;
+  }
+  .container-timeline ul li > span {
+    width: 2px;
+    height: 100%;
+    background: #fff;
+    left: -30px;
+    top: 0;
+    position: absolute;
+  }
+  .container-timeline ul li > span:before, .container-timeline ul li > span:after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    position: absolute;
+    background: #86b7e7;
+    left: -9px;
+    top: 0;
+  }
+  .container-timeline ul li span:after {
+    top: 100%;
+  }
+  .container-timeline ul li > div {
+    margin-left: 10px;
+  }
+  .container-timeline div .title, .container-timeline div .type {
+    font-weight: 600;
+    font-size: 12px;
+  }
+  .container-timeline div .info {
+    font-weight: 300;
+  }
+  .container-timeline div > div {
+    margin-top: 5px;
+  }
+  .container-timeline span.number {
+    height: 100%;
+  }
+  .container-timeline span.number span {
+    position: absolute;
+    font-size: 14px;
+    /* font-size: calc(10px + 4 * ((100vw - 320px) / (1120))); */
+    /* font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width]))); */
+    left: -270px;
+    font-weight: 700;
+    letter-spacing: .5px;
+  }
+  .container-timeline span.number span:first-child {
+    top: 0;
+  }
+  .container-timeline span.number span:last-child {
+    top: 100%;
+  }
+
+  .fa-custom{
+    font-size: 75px;
+    color: #30375f;
+    /* -webkit-text-stroke: 4px #00000000; */
+    /* background: linear-gradient(purple,#607D8B), #61222200; */
+    background-clip: text;
+    /* -webkit-background-clip: text; */
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    padding: 5px;
+  }
+
+  .nlp-text{
+    font-size: 18px;
+    color: #F44336;
+    text-transform: uppercase;
+  }
+
+@media only screen and (min-width: 1440px){
+    .homepage-3.slider_area{
+        /*min-height: 900px;*/
+    }
+}
+
+@media only screen and (min-width: 1024px){
+
+}
+
+@media only screen and (min-width: 768px){
+      .container-timeline ul li{
+          width: 70vw;
+      }
+}
+
+  @media only screen and (min-width: 646px){
+    .container-timeline span.number span{
+      left: -190px ;
+      font-size: 12px;
+    }
+    .container-timeline{
+      padding: 5% 30%;
+    }
+    .container-timeline ul li{
+      width: 70vw;
+  }
+  }
+
+  @media only screen and (max-width: 645px){
+    .container-timeline span.number span{
+      display: none;
+    }
+  }
+
+@media only screen and (min-width: 566px) and (max-width: 645px){
+  .container-timeline{padding: 5% 0%;}
+}
+
+  @media only screen and (max-width: 566px){
+  .container-timeline {
+      padding: 5%;
+  }
+  }
+
+  @media only screen and (max-width: 532px){
+    .container-timeline {
+        padding: 10% 0%;
+    }
+    }
+
+    @media only screen and (min-width: 480px){
+      .container-timeline ul li{
+        width: 56vw;
+      }
+    }
+
+    @media only screen and (min-width: 460px){
+      .container-timeline ul li{
+        width: 50vw;
+      }
+    }
+
+    @media only screen and (min-width: 375px){
+      .container-timeline ul li{
+        width: 50vw;
+      }
+    }
+
+    @media only screen and (min-width: 320px){
+      .container-timeline ul li{
+        width: 50vw;
+        max-width: 350px;
+      }
+    }
